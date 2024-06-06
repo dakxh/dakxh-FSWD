@@ -1,0 +1,26 @@
+{
+  "name": "log",
+  "version": "1.0.0",
+  "description": "login and registartion",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "login",
+    "reg"
+  ],
+  "author": "cmr",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "express-validator": "^6.15.0",
+    "mongoose": "^5.13.22",
+    "multer": "^1.4.4",
+    "nodemon": "^2.0.9",
+    "pug": "^3.0.3"
+  }
+}
